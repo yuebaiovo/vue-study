@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>04-v-show的使用</title>
+</head>
+<body>
+
+<div id="app">
+  <h2 v-show="isShow">天气不错!</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      isShow: true
+    }
+  })
+</script>
+
+</body>
+</html>

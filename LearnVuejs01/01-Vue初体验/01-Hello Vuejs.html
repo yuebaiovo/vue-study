@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01-Hello Vuejs</title>
+</head>
+<body>
+
+<div id="app">{{message}}</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+    	message: 'Hello Vuejs'
+    },
+    mounted() {
+    	setTimeout(() => {
+    		this.message = 'Hello Coderwhy'
+      }, 2000)
+    }
+  })
+</script>
+<!--<script>-->
+  <!--// 1.定义数据-->
+  <!--let message = 'Hello Vuejs'-->
+
+  <!--// 2.获取DOM-->
+  <!--const appDom = document.querySelector('#app')-->
+
+  <!--// 3.将message设置到DOM中-->
+  <!--appDom.innerText = message-->
+
+  <!--// 4.修改message,并且将新的message赋值到DOM中-->
+  <!--setTimeout(() => {-->
+	  <!--message = 'Hello Coderwhy'-->
+	  <!--appDom.innerText = message-->
+  <!--}, 1000)-->
+
+<!--</script>-->
+
+</body>
+</html>

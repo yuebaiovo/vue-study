@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>03-v-html</title>
+</head>
+<body>
+
+<div id="app">
+  <div>{{link}}</div>
+  <div v-html="link"></div>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+    	link: '<a href="http://www.baidu.com">百度一下</a>'
+    }
+  })
+</script>
+
+</body>
+</html>

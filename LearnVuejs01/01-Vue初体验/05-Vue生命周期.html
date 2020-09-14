@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>05-Vue生命周期</title>
+</head>
+<body>
+
+<div id="app">
+  {{message}}
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data: {
+      message: '你好啊,李银河'
+    },
+    beforeCreate() {
+	    console.log('beforeCreate');
+    },
+    created() {
+	    console.log('created');
+    },
+    beforeMount() {
+	    console.log('beforeMount');
+    },
+    mounted() {
+	    console.log('mounted');
+    },
+    beforeUpdate() {
+	    console.log('beforeUpdate');
+    },
+	  updated() {
+		  console.log('updated');
+	  },
+    beforeDestroy() {
+	    console.log('beforeDestroy');
+    },
+    destroyed() {
+	    console.log('destroyed');
+    }
+  })
+</script>
+
+</body>
+</html>

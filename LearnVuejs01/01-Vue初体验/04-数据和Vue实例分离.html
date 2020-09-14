@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>04-数据和Vue实例分离</title>
+</head>
+<body>
+
+{{message}}
+<div id="app">
+  {{message}}
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+	/**
+   * 结论一: 修改obj中的对象内容,会发生响应式
+   *
+	 */
+  const obj = {
+  	message: '你好啊, Vuejs'
+  }
+
+  const app = new Vue({
+    el: document.querySelector('#app'),
+    data: obj
+  })
+
+
+</script>
+
+</body>
+</html>

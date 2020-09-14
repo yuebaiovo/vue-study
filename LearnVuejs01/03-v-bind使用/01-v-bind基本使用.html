@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>01-v-bind基本使用</title>
+</head>
+<body>
+
+<div id="app">
+  <img v-bind:src="imgSrc" alt="">
+  <a v-bind:href="link">Vuejs官网</a>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+    	imgSrc: 'https://cn.vuejs.org/images/logo.png',
+      link: 'https://cn.vuejs.org/'
+    }
+  })
+</script>
+
+</body>
+</html>

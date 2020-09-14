@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>07-绑定style属性(对象)</title>
+</head>
+<body>
+
+<div id="app">
+  <h2 :style="{color: dColor, fontSize: dFontSize + 'px'}">今天天气不错</h2>
+  <h2 :style="objStyle">今天天气不错</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    let vm = new Vue({
+        el: '#app',
+        data: {
+          message: '你好啊,李银河',
+          dColor: 'red',
+          dFontSize: 50,
+          objStyle: {
+            color: 'red',
+            fontSize: '60px'
+          }
+        }
+    })
+</script>
+
+</body>
+</html>
