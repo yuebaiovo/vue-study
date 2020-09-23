@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="295a5b6a-b911-47aa-9876-c2f5e7f0f69c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/supermall/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/cart/tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/common/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/common/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/common/collect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/common/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/common/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/detail/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/detail/detail_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/home/recommend_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/pointer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/profile/vip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/category.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/category_active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/home_active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/profile_active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/shopcart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/assets/img/tabbar/shopcart_active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/navbar/NavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/swiper/Swiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/swiper/SwiperItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/swiper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/tabbar/TabBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/common/tabbar/TabBarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/components/content/mainTabbar/MainTabBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/network/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/network/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/cart/Cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/category/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/home/childComps/HomeSwiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/home/childComps/RecommendView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/src/views/profile/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supermall/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supermall/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/supermall/src/main.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-461184289">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="editorconfig" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="4" />
+          <entry key="ico" value="1" />
+          <entry key="js" value="16" />
+          <entry key="md" value="1" />
+          <entry key="svg" value="1" />
+          <entry key="ts" value="12" />
+          <entry key="vue" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="16" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="SVG" value="1" />
+          <entry key="TypeScript" value="12" />
+          <entry key="Vue.js" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="83" />
+          <entry key="js" value="2623" />
+          <entry key="vue" value="1785" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="83" />
+          <entry key="JavaScript" value="2623" />
+          <entry key="Vue.js" value="1785" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supermall/src/network/request.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supermall/src/views/home/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#131#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/supermall/src/views/home/childComps/RecommendView.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/supermall" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/learnaxios/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/learnaxios/src/App.vue" />
+        <option value="$PROJECT_DIR$/learnaxios/src/main.js" />
+        <option value="$PROJECT_DIR$/learnaxios/src/network/request.js" />
+        <option value="$PROJECT_DIR$/supermall/src/common/const.js" />
+        <option value="$PROJECT_DIR$/supermall/src/common/utils.js" />
+        <option value="$PROJECT_DIR$/supermall/src/common/mixin.js" />
+        <option value="$PROJECT_DIR$/supermall/src/assets/css/base.css" />
+        <option value="$PROJECT_DIR$/supermall/vue.config.js" />
+        <option value="$PROJECT_DIR$/supermall/src/main.js" />
+        <option value="$PROJECT_DIR$/supermall/src/router/index.js" />
+        <option value="$PROJECT_DIR$/supermall/src/App.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/components/content/mainTabbar/MainTabBar.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/components/common/navbar/NavBar.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/network/request.js" />
+        <option value="$PROJECT_DIR$/supermall/src/network/home.js" />
+        <option value="$PROJECT_DIR$/supermall/src/components/common/swiper/index.js" />
+        <option value="$PROJECT_DIR$/supermall/src/components/common/swiper/SwiperItem.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/views/home/childComps/HomeSwiper.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/views/home/Home.vue" />
+        <option value="$PROJECT_DIR$/supermall/src/views/home/childComps/RecommendView.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/01-learnaxios/node_modules" />
+    <handled-path value="$PROJECT_DIR$/supermall/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/01-learnaxios/package.json" />
+      <path value="$PROJECT_DIR$/supermall/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1031" />
+    <option name="height" value="712" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LearnVuejs09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnVuejs09" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../预习代码/mall" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2018.2.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\share\13-Vuejs\Day 09\课堂代码\LearnVuejs09\supermall\src\components\common" />
+      <recent name="F:\share\13-Vuejs\Day 09\课堂代码\LearnVuejs09\supermall\src\network" />
+      <recent name="F:\share\13-Vuejs\Day 09\课堂代码\LearnVuejs09\supermall\public" />
+      <recent name="F:\share\13-Vuejs\Day 09\课堂代码\LearnVuejs09\supermall\src\views" />
+      <recent name="F:\share\13-Vuejs\Day 09\课堂代码\LearnVuejs09\supermall\src\assets\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="295a5b6a-b911-47aa-9876-c2f5e7f0f69c" name="Default Changelist" comment="" />
+      <created>1546217881526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546217881526</updated>
+      <workItem from="1546217887382" duration="10566000" />
+      <workItem from="1546237899447" duration="10847000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21413000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20747218" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41744548" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01-learnaxios/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-learnaxios/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#87#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-learnaxios/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="98" column="83" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall1/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall1/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-learnaxios/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="139" column="2" lean-forward="true" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/common/const.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/common/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/common/mixin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/assets/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/assets/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-learnaxios/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/tabbar/TabBarItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/assets/img/cart/tick.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/cart/Cart.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/content/mainTabbar/MainTabBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#1172#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret column="200" lean-forward="true" selection-start-column="186" selection-end-column="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/tabbar/TabBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/navbar/NavBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-learnaxios/src/network/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/network/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/network/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/swiper/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/swiper/SwiperItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/components/common/swiper/Swiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/home/childComps/HomeSwiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#131#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermall/src/views/home/childComps/RecommendView.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
